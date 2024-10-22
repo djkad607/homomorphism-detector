@@ -52,6 +52,7 @@ body {
 }
 #detectButton:hover {
     cursor: pointer;
+    border-style: inset;
 }
 #output {
 
