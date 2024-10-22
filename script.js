@@ -17,7 +17,7 @@ function getOrder(element, group) {
 function getCommonDivisors(left, right) {
     let commonDivisorArray = [];
     let i;
-    for(i = 1; i <= Math.floor(Math.min(left, right) / 2); i++)
+    for(i = 1; i <= Math.floor(Math.min(left, right)); i++)
         if(left % i == 0 && right % i == 0)
             commonDivisorArray.push(i);
     return commonDivisorArray;
