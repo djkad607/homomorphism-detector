@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: Bahnschrift;
+    font-family: Poppins;
 }
 #app {
     background-color: rgb(30, 30, 30);
@@ -20,11 +20,11 @@ body {
     padding-top: 30px;
     color: white;
     font-size: 25px;
-    font-weight:900;
+    font-weight:700;
 }
 #mInput, #nInput {
     margin: 10px;
-    font-family: Bahnschrift;
+    font-family: Poppins;
     border-color: rgb(255, 0, 76);
     border-style: inset;
     background-color: black;
@@ -38,7 +38,7 @@ body {
 }
 #detectButton {
     margin: 30px;
-    font-family: Bahnschrift;
+    font-family: Poppins;
     background-image: linear-gradient(45deg, black, black, rgb(30, 30, 30), black, black, rgb(30, 30, 30), black, black);
     padding-top: 5px;
     padding-bottom: 5px;
